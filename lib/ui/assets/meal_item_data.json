@@ -1,0 +1,148 @@
+{
+    "meal_item": [
+       
+        {
+            "id": 1,
+            "category": "Snacks",
+            "name": "#2",
+            "description": "Mars",
+            "price": 7.50,
+            "discount": 2.00,
+            "items_left": 5
+        },
+        {
+            "id": 2,
+            "category": "Snacks",
+            "name": "#3",
+            "description": "Mars",
+            "price": 7.50,
+            "discount": 0,
+            "items_left": 5
+        },
+        {
+            "id": 3,
+            "category": "Snacks",
+            "name": "#4",
+            "description": "Mars",
+            "price": 7.50,
+            "discount": 0,
+            "items_left": 5
+        },
+        {
+            "id": 4,
+            "category": "Drinks",
+            "name": "#1",
+            "description": "Mars",
+            "price": 7.50,
+            "discount": 0,
+            "items_left": 5
+        },
+        {
+            "id": 5,
+            "category": "Drinks",
+            "name": "#2",
+            "description": "Mars",
+            "price": 7.50,
+            "discount": 0,
+            "items_left": 5
+        },
+        {
+            "id": 6,
+            "category": "Drinks",
+            "name": "#3",
+            "description": "Mars",
+            "price": 7.50,
+            "discount": 0,
+            "items_left": 5
+        },
+        {
+            "id": 7,
+            "category": "Drinks",
+            "name": "#4",
+            "description": "Mars",
+            "price": 7.50,
+            "discount": 0,
+            "items_left": 5
+        },
+        {
+            "id": 0,
+            "category": "Snacks",
+            "name": "#1",
+            "description": "Mars",
+            "price": 7.50,
+            "discount": 0,
+            "items_left": 5
+        },
+        {
+            "id": 8,
+            "category": "Small Meal",
+            "name": "#1",
+            "description": "Mars",
+            "price": 7.50,
+            "discount": 0,
+            "items_left": 5
+        },
+        
+        {
+            "id": 10,
+            "category": "Small Meal",
+            "name": "#3",
+            "description": "Mars",
+            "price": 7.50,
+            "discount": 0,
+            "items_left": 5
+        },
+        {
+            "id": 11,
+            "category": "Small Meal",
+            "name": "#4",
+            "description": "Mars",
+            "price": 7.50,
+            "discount": 0,
+            "items_left": 5
+        },{
+            "id": 12,
+            "category": "Sweets",
+            "name": "#1",
+            "description": "Mars",
+            "price": 7.50,
+            "discount": 0,
+            "items_left": 5
+        },
+        {
+            "id": 13,
+            "category": "Sweets",
+            "name": "#2",
+            "description": "Mars",
+            "price": 7.50,
+            "discount": 0,
+            "items_left": 5
+        },
+        {
+            "id": 14,
+            "category": "Sweets",
+            "name": "#3",
+            "description": "Mars",
+            "price": 7.50,
+            "discount": 0,
+            "items_left": 0
+        },
+        {
+            "id": 15,
+            "category": "Sweets",
+            "name": "#4",
+            "description": "Mars",
+            "price": 7.50,
+            "discount": 0,
+            "items_left": 5
+        },{
+            "id": 9,
+            "category": "Small Meal",
+            "name": "#2",
+            "description": "Mars",
+            "price": 7.50,
+            "discount": 0,
+            "items_left": 5
+        }
+    ]
+}
