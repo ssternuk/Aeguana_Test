@@ -1,5 +1,6 @@
 import 'package:aeguana/core/blocs/meal_bloc.dart';
 import 'package:aeguana/models/meal_item_model.dart';
+import 'package:aeguana/ui/constants.dart';
 import 'package:aeguana/ui/views/components/meal_item_card.dart';
 import 'package:flutter/material.dart';
 import 'package:get_it/get_it.dart';
@@ -34,13 +35,23 @@ class _MealItemsState extends State<MealItems> {
           if (snapshot.hasData) {
             var mealItems = snapshot.data!.mealItems;
             return Expanded(
-                child: GroupedListView(
-                    elements: mealItems,
-                    groupHeaderBuilder:(element) => Text(element.categoryDisplay),
-                    shrinkWrap: true,
-                    groupBy: (element) => element.category.toString(),
-                    scrollDirection: Axis.vertical,
-                    itemBuilder: (context, element) => MealitemCard(element)));
+                child: Container(
+              color: clrBackgroundGrey,
+              padding: EdgeInsets.all(8),
+              child: GroupedListView(
+                  separator: SizedBox(height: 14, width: double.infinity),
+                  elements: mealItems,
+                  groupHeaderBuilder: (element) => Text(
+                      style: TextStyle(
+                          fontFamily: 'Futura-Bd',
+                          fontWeight: FontWeight.w400,
+                          fontSize: 16),
+                      element.categoryDisplay),
+                  shrinkWrap: true,
+                  groupBy: (element) => element.category.toString(),
+                  scrollDirection: Axis.vertical,
+                  itemBuilder: (context, element) => MealItemCard(element)),
+            ));
           } else {
             return Container();
           }
