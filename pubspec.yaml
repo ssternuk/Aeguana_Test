@@ -17,7 +17,8 @@ dependencies:
   grouped_list: ^5.1.2
   rxdart: ^0.27.7
   get_it: ^7.6.0
-  flutter_svg: ^2.0.7
+  persistent_bottom_nav_bar_v2: ^4.2.8
+  google_fonts: ^5.1.0
 
 dev_dependencies:
   flutter_test:
@@ -28,3 +29,13 @@ flutter:
   uses-material-design: true
   assets:
     - lib/ui/assets/
+  fonts:
+    - family: Futura
+      fonts:
+      - asset: lib/ui/assets/futura/Futura-Bold-font.ttf
+    - family: Futura-Md-BT
+      fonts:
+      - asset: lib/ui/assets/futura-md/FutuMd.ttf
+    - family: Futura-Bd
+      fonts:
+      - asset: lib/ui/assets/futura-md/FutuBd.ttf
